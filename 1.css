@@ -1,0 +1,153 @@
+/* reset */
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* typography */
+html{
+    font-size: 18px;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.2;
+    color: rgb(55, 55, 55);
+}
+h1{
+   font-size: 3.2rem;
+   font-weight: 700;
+   line-height: 3.7; 
+   letter-spacing: -2px;
+}
+h2{
+    font-size: 2.4rem;
+    margin-bottom: 1.3rem;
+    font-weight: 700;
+    color: rgb(55, 55, 55);
+    text-align: center;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color:  rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
+}
+p{
+    margin-bottom: 1.3rem;
+    }
+.head-p{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2;
+    color: #373737;
+    margin-bottom: 1.7rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+p.chair-p{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #373737;
+    letter-spacing: 2px;
+    text-align: center;
+}
+p.number{
+    font-size: 2.4rem;
+    font-weight: 100;
+    color:rgb(0, 0, 0) ;
+    line-height: 2.8;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+p.contacts{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2;
+    color: #373737;
+    letter-spacing: -1px;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* header */
+#main-header{
+    padding-top: 7rem;
+    text-align: center;
+}
+.head-b{
+    padding: 1.3rem 3.5rem;
+    border: 1px solid #BDBDBD;
+    margin-bottom: 13.3rem;
+    font-weight: 700;
+}
+.head-b:hover{
+    background-color: black;
+    color: white;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.5rem;
+    width: 100%;
+}
+
+h2+p{
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    max-width: 100%;
+}
+.pictures div{
+    text-align: left;
+}
+.pictures div{
+    margin-bottom: 1.3rem;
+}
+.orderss{
+    background-color: #BDBDBD;
+    color: black;
+    padding: 7rem;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.order-p{max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.orders{
+    padding: 1.3rem ;
+    margin-bottom: 7rem;
+}
+.orders:hover{
+    background-color: black;
+    color: white;
+}
+.john{
+padding-top: 13.3rem;
+font-size: 1rem;
+}
+.abeg{
+    font-size: 70px;
+    padding: 1.3rem 0rem;
+}
+.social-icons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.6rem;
+    size: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 13.3rem;
+}
